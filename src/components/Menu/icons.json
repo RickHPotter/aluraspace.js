@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/assets/icons/home-active.png",
+    "alt": "home icon",
+    "link": "Home",
+    "id": 1
+  },
+  {
+    "path": "/assets/icons/popular-inactive.png",
+    "alt": "eye icon",
+    "link": "Popular",
+    "id": 2
+  },
+  {
+    "path": "/assets/icons/liked-inactive.png",
+    "alt": "like icon",
+    "link": "Liked",
+    "id": 3
+  },
+  {
+    "path": "/assets/icons/new-inactive.png",
+    "alt": "twinkle twinkle little star icon",
+    "link": "New",
+    "id": 4
+  },
+  {
+    "path": "/assets/icons/surprise-me-inactive.png",
+    "alt": "lamp icon",
+    "link": "Surprise-me",
+    "id": 5
+  }
+]

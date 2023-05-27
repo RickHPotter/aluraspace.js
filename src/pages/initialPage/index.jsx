@@ -1,3 +1,6 @@
+import { Banner } from "../../components/Banner";
+import { Footer } from "../../components/Footer";
+import { Gallery } from "../../components/Gallery";
 import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 
@@ -10,15 +13,13 @@ export const InitialPage = () => {
       <main>
         <section className={styles.main}>
           <Menu />
-          <div className={styles.main__image}>
-            <h1>The Most Complete Space Gallery.</h1>
-            <img
-              src="/assets/banner.png"
-              alt="alura space banner"
-            />
-          </div>
+          <Banner />
         </section>
       </main>
+      <div className={styles.gallery}>
+        <Gallery />
+      </div>
+      <Footer />
     </>
   );
 };
