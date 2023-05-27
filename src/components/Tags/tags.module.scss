@@ -26,5 +26,9 @@
       border-radius: 8px;
       cursor: pointer;
     }
+
+    .active {
+      background-color: $navy;
+    }
   }
 }

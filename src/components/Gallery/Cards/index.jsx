@@ -1,8 +1,7 @@
 import styles from './cards.module.scss'
-import pics from "../pics.json";
 import { Card } from './Card';
 
-export const Cards = () => {
+export const Cards = ({ pics }) => {
   return (
     <ul className={styles.gallery__cards}>
     {pics.map((pic) => {
